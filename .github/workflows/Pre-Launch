@@ -1,0 +1,1518 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta name="ROBOTS" content="INDEX,FOLLOW" />
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <!-- Google Tag Manager -->
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    "gtm.start": new Date().getTime(),
+                    event: "gtm.js",
+                });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != "dataLayer" ? "&l=" + l : "";
+                j.async = true;
+                j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, "script", "dataLayer", "GTM-N9ZLDXQ");
+        </script>
+        <!-- End Google Tag Manager -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Portela Coming Soon</title>
+
+        <style>
+            @font-face {
+                font-family: "Futura Bold";
+                src: url("https://db.onlinewebfonts.com/t/9ab8abd11c40ee5c8d1905f9c9cb9ac8.eot");
+                src:
+                    url("https://db.onlinewebfonts.com/t/9ab8abd11c40ee5c8d1905f9c9cb9ac8.eot?#iefix")
+                        format("embedded-opentype"),
+                    url("https://db.onlinewebfonts.com/t/9ab8abd11c40ee5c8d1905f9c9cb9ac8.woff2") format("woff2"),
+                    url("https://db.onlinewebfonts.com/t/9ab8abd11c40ee5c8d1905f9c9cb9ac8.woff") format("woff"),
+                    url("https://db.onlinewebfonts.com/t/9ab8abd11c40ee5c8d1905f9c9cb9ac8.ttf") format("truetype"),
+                    url("https://db.onlinewebfonts.com/t/9ab8abd11c40ee5c8d1905f9c9cb9ac8.svg#Futura Bold")
+                        format("svg");
+            }
+            @font-face {
+                font-family: "Proxima Nova Bold";
+                src: url("https://db.onlinewebfonts.com/t/72b6f2c9990bd3d37b8013a59ed78902.eot");
+                src:
+                    url("https://db.onlinewebfonts.com/t/72b6f2c9990bd3d37b8013a59ed78902.eot?#iefix")
+                        format("embedded-opentype"),
+                    url("https://db.onlinewebfonts.com/t/72b6f2c9990bd3d37b8013a59ed78902.woff2") format("woff2"),
+                    url("https://db.onlinewebfonts.com/t/72b6f2c9990bd3d37b8013a59ed78902.woff") format("woff"),
+                    url("https://db.onlinewebfonts.com/t/72b6f2c9990bd3d37b8013a59ed78902.ttf") format("truetype"),
+                    url("https://db.onlinewebfonts.com/t/72b6f2c9990bd3d37b8013a59ed78902.svg#Proxima Nova Bold")
+                        format("svg");
+            }
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+
+            / Firefox / input[type="number"] {
+                -moz-appearance: textfield;
+            }
+
+            * {
+                margin: 0;
+                padding: 0;
+                border: 0;
+            }
+
+            body {
+                overflow-x: hidden;
+                min-height: 100vh;
+                display: flex;
+                flex-direction: column;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            h1,
+            h2,
+            h3 {
+                font-family: "Arboria-Bold";
+            }
+
+            :focus-visible {
+                outline: none !important;
+            }
+
+            .containerss {
+                max-width: 1000px;
+                margin: 0 auto;
+                padding: 0px 20px;
+            }
+
+            /* PAGE START CSS */
+            .logo-row {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 20px;
+            }
+            .portela-logo img {
+                width: 319px;
+            }
+            .coming-soon {
+                color: #f74b84;
+                font-size: 60px;
+                font-family: "Futura Bold";
+            }
+            .vertical-line {
+                width: 3px;
+                height: 100px;
+                background: #003366;
+            }
+            .form-box {
+                background-color: #fafafa;
+                padding: 20px 40px 40px;
+            }
+            .sign-head {
+                background-color: #f74b84;
+                padding: 20px;
+            }
+            .col-md-6 {
+                width: 60%;
+            }
+            .main-body {
+                padding: 60px 0px 100px;
+                background: radial-gradient(ellipse at center, #ffffff 0%, #ffece2 100%);
+                flex: 1;
+                background-image: url(https://image.mc.zoetis.com/lib/fe3115707564057a7d1079/m/1/bg-col.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            input {
+                border: 1px solid #707070;
+                padding: 16px;
+                width: 100%;
+                color: #585858;
+                box-sizing: border-box;
+                font-size: 16px;
+                line-height: 20px;
+                border-radius: 3px;
+            }
+            .search-option input {
+                width: 50%;
+            }
+            .checkbox-area label {
+                color: #005670;
+                font-size: 16px;
+                line-height: 20px;
+                font-weight: bold;
+            }
+            .checkbox-form label {
+                color: #585858;
+                font-size: 15px;
+                line-height: 30px;
+                font-weight: 500 !important;
+                margin-bottom: 0px !important;
+                display: inline-block;
+            }
+            .checkbox-form {
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+            }
+            .checkbox-form input {
+                width: 13px;
+                height: 13px;
+            }
+            select {
+                appearance: none;
+                background-image: url(https://image.mc.zoetis.com/lib/fe3115707564057a7d1079/m/1/Polygon-icon.png) !important;
+                background: right;
+                background-position: 98%;
+                background-repeat: no-repeat;
+                background-size: 9px;
+            }
+
+            .terms-area p {
+                color: #585858;
+                font-size: 16px;
+                line-height: 20px;
+                margin-bottom: 50px;
+            }
+            .btn-submit {
+                width: 90%;
+                margin: 0;
+                max-width: 472px;
+            }
+            button:hover {
+                background-color: #f65c00;
+            }
+            .terms-area {
+                width: 100%;
+                padding-left: 15px;
+                margin-top: 50px;
+                max-width: 910px;
+            }
+            .form-area h2 {
+                color: #ffffff;
+                font-size: 34px;
+                line-height: 40px;
+                text-align: center;
+                margin-bottom: 0;
+                font-family: "Proxima Nova Bold";
+            }
+            .form-area {
+                margin-top: 20px;
+            }
+            .form-area .row {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .search-option {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .box-area.new-box {
+                column-count: 2;
+                width: 40%;
+            }
+            .box-area {
+                margin: 20px 0px 0px 0px;
+            }
+            .checkbox-area {
+                margin-top: 50px;
+                padding-left: 15px;
+            }
+            .form-area .col-md-4 {
+                width: 100%;
+                padding: 15px;
+            }
+
+            .terms-area a {
+                color: #f65c00;
+            }
+            p.custom-margin-bt {
+                margin-bottom: 25px !important;
+            }
+            @media screen and (min-width: 1200px) {
+            }
+
+            @media screen and (min-width: 1300px) {
+            }
+
+            @media screen and (max-width: 1024px) {
+                .portela-logo img {
+                    width: 303px;
+                }
+                .coming-soon {
+                    font-size: 52px;
+                    text-align: center;
+                }
+
+                br {
+                    display: none;
+                }
+
+                .form-area h2 {
+                    font-size: 29px;
+                    line-height: 33px;
+                }
+                .col-md-6 {
+                    width: 71%;
+                }
+            }
+            @media screen and (max-width: 992px) {
+                .image-zip-row {
+                    width: 48% !important;
+                }
+                .signup-submit-btn {
+                    width: 325px !important;
+                    height: 59px !important;
+                }
+                .form-box {
+                    padding: 26px 26px 40px !important;
+                }
+                .footer-inner {
+                    flex-direction: column;
+                    align-items: end !important;
+                }
+            }
+
+            @media screen and (max-width: 768px) {
+                .form-area {
+                    width: 100%;
+                }
+
+                .form-box {
+                    padding: 22px 20px 24px;
+                }
+
+                .image-form-row {
+                    grid-template-columns: 1fr !important;
+                    gap: 12px !important;
+                }
+
+                .image-zip-row {
+                    flex-wrap: wrap;
+                }
+
+                .image-zip-field {
+                    width: 100%;
+                    flex: 0 0 100%;
+                }
+                .search-practice-btn {
+                    min-width: 100% !important;
+                }
+                .logo-row {
+                    flex-direction: column !important;
+                }
+                .vertical-line {
+                    width: 55%;
+                    height: 3px;
+                    background: #003366;
+                    margin: 18px 0px 15px;
+                }
+
+                .main-body {
+                    padding: 70px 0px;
+                }
+
+                .form-area .row {
+                    flex-direction: column;
+                }
+                .checkbox-area {
+                    margin-top: 40px;
+                    padding-left: 0;
+                }
+            }
+            @media screen and (max-width: 576px) {
+                .box-area.new-box {
+                    width: 70%;
+                }
+            }
+            input[type="checkbox"] {
+                accent-color: #f65c00;
+            }
+            .checkbox-form label {
+                margin-left: 12px;
+            }
+
+            .form-box p.form-note {
+                font-size: 13px;
+                line-height: 15px;
+                color: #3d3d3d;
+                margin: 0 0 20px;
+            }
+
+            .image-form {
+                width: 100%;
+            }
+
+            .image-form label {
+                display: block;
+                color: #585858;
+                font-size: 12px;
+                line-height: 15px;
+                margin: 0 0 4px;
+                font-weight: 700;
+            }
+
+            .image-form input,
+            .image-form select {
+                width: 100%;
+                height: 27px;
+                border: 1px solid #979797;
+                background-color: #ffffff !important;
+                padding: 6px 10px;
+                color: #333333;
+                font-size: 13px;
+                line-height: 15px;
+                box-sizing: border-box;
+                outline: none;
+                border-radius: 4px;
+            }
+
+            /* .image-form select {
+    appearance: auto;
+    -webkit-appearance: auto;
+    background-image: none !important;
+    background-position: initial !important;
+    background-repeat: initial !important;
+    cursor: pointer;
+} */
+
+            .image-zip-row {
+                display: flex;
+                align-items: end;
+                gap: 12px;
+                margin-bottom: 20px;
+                width: 40%;
+            }
+            .image-zip-field {
+                width: 100%;
+            }
+
+            .search-practice-btn {
+                width: auto;
+                min-width: 49%;
+                margin: 0;
+                padding: 7px 9px;
+                height: 36px;
+                background: #f65c00;
+                color: #ffffff;
+                border: 0;
+                border-radius: 5px;
+                font-size: 12px;
+                font-weight: 700;
+                cursor: pointer;
+            }
+            .image-form-row {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 25px;
+                margin-bottom: 20px;
+            }
+
+            .image-divider {
+                height: 1px;
+                background: #707070;
+                margin: 23px 0 23px;
+            }
+            .image-check-row {
+                display: flex !important;
+                align-items: flex-start;
+                gap: 6px;
+                margin-bottom: 10px !important;
+            }
+
+            .image-check-row input {
+                width: 14px !important;
+                height: 14px !important;
+                flex: 0 0 10px;
+                margin: 1px 0 0 !important;
+                padding: 0 !important;
+                border: 1px solid #707070;
+                border-radius: 0px !important;
+                background-color: #ffffff;
+            }
+
+            .image-check-row span {
+                display: block;
+                font-size: 14px;
+                line-height: 18px;
+                color: #585858;
+                font-weight: 400;
+            }
+
+            .image-check-row a {
+                color: #131560;
+                text-decoration: underline;
+            }
+            .image-submit-wrap {
+                text-align: center;
+                margin-top: 30px;
+            }
+            .signup-submit-btn {
+                width: 415px;
+                max-width: 100%;
+                height: 67px;
+                margin: 0;
+                background: #f65c00;
+                color: #ffffff;
+                border: 0;
+                border-radius: 0;
+                font-size: 21px;
+                line-height: 20px;
+                font-weight: 700;
+                cursor: pointer;
+            }
+            .search-practice-btn:hover,
+            .signup-submit-btn:hover {
+                background: #ff6600;
+            }
+
+            @media screen and (max-width: 500px) {
+                .image-zip-row {
+                    flex-wrap: wrap;
+                    width: 100% !important;
+                }
+            }
+
+            .footer {
+                border-top: 11px solid #003366;
+                padding: 30px 30px 0px;
+            }
+            .footer-inner {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .zoetis-logo img {
+                width: 114px;
+                display: block;
+            }
+            .footer-text {
+                font-size: 12px;
+                line-height: 16px;
+                color: #585858;
+                padding-bottom: 24px;
+            }
+
+            .radio_input_box {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                padding: 12px;
+                margin-bottom: 10px;
+                cursor: pointer;
+            }
+            .radio_input_box:hover {
+                border-color: #f65c00;
+            }
+            .radio_input_box.manual {
+                background: #fff8f3;
+                border-color: #f65c00;
+                position: relative;
+            }
+            .pp_radio_input {
+                width: 18px !important;
+                height: 18px !important;
+                accent-color: #f65c00;
+            }
+            .pp_radio_label p {
+                margin: 3px 0;
+            }
+            .pp_radio_label p:first-child {
+                font-weight: bold;
+            }
+            .pp_fm_btn_wrapper {
+                text-align: center;
+                margin-top: 20px;
+            }
+            .radio_fm_btn {
+                background: #f65c00;
+                color: #fff;
+                border: none;
+                padding: 12px 28px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            .close-btn-1 {
+                position: absolute;
+                top: 8px;
+                right: 10px;
+                background: none;
+                border: none;
+                cursor: pointer;
+            }
+
+            /* Manual clinic entry */
+            .manual-entry-toggle {
+                display: inline-block;
+                margin-top: 16px;
+                padding: 10px 16px;
+                font-size: 14px;
+                color: #f26500;
+                text-decoration: underline;
+                cursor: pointer;
+                background: none;
+                border: none;
+                font-family: "Poppins", sans-serif;
+                border-radius: 6px;
+                transition: all 0.2s;
+            }
+            .manual-entry-toggle:hover {
+                background: #fff8f3;
+                text-decoration: none;
+            }
+            #manual_entry_section {
+                display: none;
+                margin-top: 18px;
+                border-top: 1px solid #e5e5e5;
+                padding-top: 18px;
+            }
+
+            #manual_entry_section .manual-field-group {
+                margin-bottom: 14px;
+            }
+
+            #manual_entry_section label {
+                display: block;
+                font-size: 13px;
+                font-weight: 600;
+                color: #585858;
+                margin-bottom: 6px;
+                font-family: "Poppins", sans-serif;
+            }
+
+            #manual_entry_section input,
+            #manual_entry_section select {
+                width: 100%;
+                height: 46px;
+                border: 1px solid #e5e5e5;
+                outline: none;
+                background: #f6f4f4;
+                border-radius: 10px;
+                padding: 0 16px;
+                font-size: 14px;
+                color: #585858;
+                font-family: "Poppins", sans-serif;
+                box-sizing: border-box;
+            }
+
+            /* Fix for dropdown (removes zigzag pattern) */
+            #manual_entry_section select {
+                appearance: auto !important;
+                -webkit-appearance: auto !important;
+                -moz-appearance: auto !important;
+                background-image: none !important;
+                padding-right: 30px !important;
+                cursor: pointer;
+            }
+            .back-to-zip-link {
+                display: inline-block;
+                margin-top: 10px;
+                font-size: 14px;
+                color: #585858;
+                text-decoration: underline;
+                cursor: pointer;
+                background: none;
+                border: none;
+                padding: 0;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- Start Google Tag Manager (noscript) -->
+        <noscript
+            ><iframe
+                src="https://www.googletagmanager.com/ns.html?id=GTM-N9ZLDXQ"
+                height="0"
+                width="0"
+                style="display: none; visibility: hidden"
+            ></iframe
+        ></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+        <div class="main-body">
+            <div class="body-area">
+                <div class="containerss">
+                    <div class="logo-row">
+                        <div class="portela-logo">
+                            <img
+                                src="https://image.mc.zoetis.com/lib/fe3115707564057a7d1079/m/1/2026_07_Portela_Logo_Pre_Launch_Landing_.png"
+                            />
+                        </div>
+
+                        <div class="vertical-line"></div>
+
+                        <div class="coming-soon">Coming Soon</div>
+                    </div>
+                    <div class="form-area">
+                        <div class="sign-head">
+                            <h2>Sign up now!</h2>
+                        </div>
+
+                        <div class="form-box">
+                            <p class="form-note">All fields are mandatory.</p>
+
+                            <form
+                                class="image-form"
+                                action="https://cl.s10.exct.net/DEManager.aspx"
+                                name="subscribeForm"
+                                method="post"
+                                onsubmit="return checkForm();"
+                            >
+                                <input type="hidden" name="_clientID" value="100017849" />
+                                <input type="hidden" name="_deExternalKey" value="08837DB3-9E7B-49D6-98B3-6823F40DCEE9"/>
+                                <input type="hidden" name="_action" value="add" />
+                                <input type="hidden" name="_returnXML" value="0" />
+                                <input type="hidden" name="_successURL" value="#" />
+                                <input type="hidden" name="_errorURL" value="#" />
+                                <input type="hidden" id="SubscriberKey" name="SubscriberKey" value="" />
+                                <input type="hidden" id="Brand" name="Brand" value="Pain" />
+
+                                <input type="hidden" id="clinic_name" name="ClinicName" value="" />
+                                <input type="hidden" id="clinic_address" name="ClinicStreet" value="" />
+                                <input type="hidden" id="clinic_city" name="ClinicCity" value="" />
+                                <input type="hidden" id="clinic_state" name="ClinicState" value="" />
+                                <input type="hidden" id="clinic_zip" name="zip_code" value="" />
+                                <input type="hidden" id="narc_id" name="NarcId" value="" />
+
+                                <input type="hidden" id="utm_source" name="utm_source" value="" />
+                                <input type="hidden" id="utm_medium" name="utm_medium" value="" />
+                                <input type="hidden" id="utm_campaign" name="utm_campaign" value="" />
+                                <input type="hidden" id="utm_content" name="utm_content" value="" />
+                                <input type="hidden" id="CampaignName" name="CampaignName" value="" />
+
+                                <input type="hidden" id="PageURL" name="PageURL" value="" />
+
+                                <div class="image-zip-row">
+                                    <div class="image-zip-field">
+                                        <label for="zip_code">Clinic zip code</label>
+                                        <input type="number" id="zip_code" required />
+                                    </div>
+
+                                    <button
+                                        id="zip_code_submit"
+                                        class="search-practice-btn"
+                                        type="button"
+                                        onclick="return getCall();"
+                                    >
+                                        Search for your practice
+                                    </button>
+                                </div>
+
+                                <div
+                                    id="selected_clinic_display"
+                                    style="
+                                        display: none;
+                                        margin-bottom: 20px;
+                                        background: #fff8f3;
+                                        border: 1px solid #f65c00;
+                                        border-radius: 8px;
+                                        padding: 14px;
+                                        align-items: center;
+                                        gap: 12px;
+                                    "
+                                >
+                                    <button
+                                        type="button"
+                                        onclick="removeSelectedZip()"
+                                        style="
+                                            background: #f65c00;
+                                            color: #fff;
+                                            border: none;
+                                            width: 28px;
+                                            height: 28px;
+                                            border-radius: 4px;
+                                            cursor: pointer;
+                                        "
+                                    >
+                                        X
+                                    </button>
+                                    <div>
+                                        <p id="selected_clinic_name" style="margin: 0; font-weight: bold"></p>
+                                        <p id="selected_clinic_info" style="margin: 5px 0 0"></p>
+                                    </div>
+                                </div>
+
+                                <div class="image-form-row">
+                                    <div class="field-group">
+                                        <label>First name</label>
+                                        <input type="text" id="first_name" name="first_name" required />
+                                    </div>
+
+                                    <div class="field-group">
+                                        <label>Last name</label>
+                                        <input type="text" id="last_name" name="last_name" required />
+                                    </div>
+                                </div>
+
+                                <div class="image-form-row">
+                                    <div class="field-group">
+                                        <label>Role</label>
+
+                                        <div class="input-wrap">
+                                            <select name="Role" id="Role" required>
+                                                <option selected disabled></option>
+
+                                                <option value="Associate Veterinarian">Associate Veterinarian</option>
+                                                <option
+                                                    value="Certified/Registered/Licensed Veterinary Technician (CVT, RVT, LVT)"
+                                                >
+                                                    Certified/Registered/Licensed Veterinary Technician (CVT, RVT, LVT)
+                                                </option>
+                                                <option value="Client Service Representative">
+                                                    Client Service Representative
+                                                </option>
+                                                <option value="Corporate Executive">Corporate Executive</option>
+                                                <option value="Groomer/Kennel Assistant">
+                                                    Groomer/Kennel Assistant
+                                                </option>
+                                                <option value="Medical Director">Medical Director</option>
+                                                <option value="Operations Manager">Operations Manager</option>
+                                                <option value="Practice Manager/Hospital Administrator">
+                                                    Practice Manager/Hospital Administrator
+                                                </option>
+                                                <option value="Practice Owner, Non-DVM">Practice Owner, Non-DVM</option>
+                                                <option value="Practice Owner, Veterinarian">
+                                                    Practice Owner, Veterinarian
+                                                </option>
+                                                <option value="Veterinarian">Veterinarian</option>
+                                                <option value="Veterinary Assistant">Veterinary Assistant</option>
+                                                <option value="Veterinary Intern">Veterinary Intern</option>
+                                                <option value="Veterinary Resident">Veterinary Resident</option>
+                                                <option value="Veterinary Specialist">Veterinary Specialist</option>
+                                                <option value="Veterinary Student">Veterinary Student</option>
+                                                <option value="Veterinary Technician Specialist (VTS)">
+                                                    Veterinary Technician Specialist (VTS)
+                                                </option>
+                                                <option value="Veterinary Technician Student">
+                                                    Veterinary Technician Student
+                                                </option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="field-group">
+                                        <label>Email Address</label>
+                                        <input type="email" id="EmailAddress" name="EmailAddress" required />
+                                    </div>
+                                    <div class="field-group" id="board_certification_group" style="display: none">
+                                        <label>Board Certification</label>
+
+                                        <div class="input-wrap">
+                                            <select name="board_certification" id="board_certification">
+                                                <option selected disabled></option>
+
+                                                <option value="Associate Veterinarian">Associate Veterinarian</option>
+                                                <option
+                                                    value="Certified/Registered/Licensed Veterinary Technician (CVT, RVT, LVT)"
+                                                >
+                                                    Certified/Registered/Licensed Veterinary Technician (CVT, RVT, LVT)
+                                                </option>
+                                                <option value="Client Service Representative">
+                                                    Client Service Representative
+                                                </option>
+                                                <option value="Corporate Executive">Corporate Executive</option>
+                                                <option value="Groomer/Kennel Assistant">
+                                                    Groomer/Kennel Assistant
+                                                </option>
+                                                <option value="Medical Director">Medical Director</option>
+                                                <option value="Operations Manager">Operations Manager</option>
+                                                <option value="Practice Manager/Hospital Administrator">
+                                                    Practice Manager/Hospital Administrator
+                                                </option>
+                                                <option value="Practice Owner, Non-DVM">Practice Owner, Non-DVM</option>
+                                                <option value="Practice Owner, Veterinarian">
+                                                    Practice Owner, Veterinarian
+                                                </option>
+                                                <option value="Veterinarian">Veterinarian</option>
+                                                <option value="Veterinary Assistant">Veterinary Assistant</option>
+                                                <option value="Veterinary Intern">Veterinary Intern</option>
+                                                <option value="Veterinary Resident">Veterinary Resident</option>
+                                                <option value="Veterinary Specialist">Veterinary Specialist</option>
+                                                <option value="Veterinary Student">Veterinary Student</option>
+                                                <option value="Veterinary Technician Specialist (VTS)">
+                                                    Veterinary Technician Specialist (VTS)
+                                                </option>
+                                                <option value="Veterinary Technician Student">
+                                                    Veterinary Technician Student
+                                                </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="image-divider"></div>
+
+                                <label class="image-check-row">
+                                    <input type="checkbox" id="EmailOptIn" name="EmailOptIn" value="Yes" />
+                                    <span>Yes, please send me email communications from Zoetis.</span>
+                                </label>
+
+                                <label class="image-check-row">
+                                    <input type="checkbox" id="TermsAgree" name="TermsAgree" value="Yes" required />
+                                    <span>
+                                        I agree with the Zoetis
+                                        <a href="https://www.zoetisus.com/policies/terms-of-use" target="_blank"
+                                            >Terms of Use</a
+                                        >
+                                        and
+                                        <a
+                                            href="https://www.zoetisus.com/policies/zoetis-privacy-center"
+                                            target="_blank"
+                                            >Privacy Policy</a
+                                        >.
+                                    </span>
+                                </label>
+
+                                <div class="image-submit-wrap">
+                                    <button class="signup-submit-btn" type="submit">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="containerss">
+                <div class="footer-inner">
+                    <div class="footer-text">
+                        All trademarks are the property of Zoetis Services LLC or a related company or a licensor unless
+                        otherwise noted. <br />
+                        © 2026 Zoetis Services LLC. All rights reserved. PTL-00029
+                    </div>
+
+                    <div class="zoetis-logo">
+                        <a href="https://www.zoetisus.com/" target="_blank"
+                            ><img
+                                src="https://image.mc.zoetis.com/lib/fe3115707564057a7d1079/m/1/2026_07_zoetis_Logo_Pre_Launch_Landing_.png"
+                        /></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div
+            id="popup_form_wrapper"
+            style="
+                display: none;
+                position: fixed;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.5);
+                z-index: 9999;
+                overflow-y: auto;
+            "
+        >
+            <div
+                style="
+                    background: #fff;
+                    width: 90%;
+                    max-width: 600px;
+                    margin: 60px auto;
+                    border-radius: 12px;
+                    padding: 30px;
+                    position: relative;
+                "
+            >
+                <button
+                    type="button"
+                    onclick="closeSearchModal()"
+                    style="
+                        position: absolute;
+                        right: 15px;
+                        top: 10px;
+                        border: none;
+                        background: none;
+                        font-size: 24px;
+                        cursor: pointer;
+                    "
+                >
+                    &times;
+                </button>
+
+                <h3 id="popup_title" style="margin-bottom: 20px; color: #f65c00">Select Your Practice</h3>
+
+                <div id="zip_code_form"><div id="search_results_container"></div></div>
+
+                <div id="manual_entry_toggle_wrapper">
+                    <button type="button" class="manual-entry-toggle" onclick="showManualEntry()">
+                        If you still can't find your clinic, add it manually here.
+                    </button>
+                </div>
+
+                <div id="manual_entry_section">
+                    <div class="manual-field-group">
+                        <label>Clinic Name *</label>
+                        <input type="text" id="manual_clinic_name" placeholder="Clinic Name" />
+                    </div>
+                    <div class="manual-field-group">
+                        <label>Clinic Address *</label>
+                        <input type="text" id="manual_clinic_address" placeholder="Clinic Address" />
+                    </div>
+                    <div class="manual-field-group">
+                        <label>Clinic City *</label>
+                        <input type="text" id="manual_clinic_city" placeholder="Clinic City" />
+                    </div>
+                    <div class="manual-field-group">
+                        <label>Clinic State *</label>
+                        <select id="manual_clinic_state">
+                            <option value="" disabled selected hidden>Select State</option>
+                            <option value="Alabama">Alabama</option>
+                            <option value="Alaska">Alaska</option>
+                            <option value="Arizona">Arizona</option>
+                            <option value="Arkansas">Arkansas</option>
+                            <option value="California">California</option>
+                            <option value="Colorado">Colorado</option>
+                            <option value="Connecticut">Connecticut</option>
+                            <option value="Delaware">Delaware</option>
+                            <option value="Florida">Florida</option>
+                            <option value="Georgia">Georgia</option>
+                            <option value="Hawaii">Hawaii</option>
+                            <option value="Idaho">Idaho</option>
+                            <option value="Illinois">Illinois</option>
+                            <option value="Indiana">Indiana</option>
+                            <option value="Iowa">Iowa</option>
+                            <option value="Kansas">Kansas</option>
+                            <option value="Kentucky">Kentucky</option>
+                            <option value="Louisiana">Louisiana</option>
+                            <option value="Maine">Maine</option>
+                            <option value="Maryland">Maryland</option>
+                            <option value="Massachusetts">Massachusetts</option>
+                            <option value="Michigan">Michigan</option>
+                            <option value="Minnesota">Minnesota</option>
+                            <option value="Mississippi">Mississippi</option>
+                            <option value="Missouri">Missouri</option>
+                            <option value="Montana">Montana</option>
+                            <option value="Nebraska">Nebraska</option>
+                            <option value="Nevada">Nevada</option>
+                            <option value="New Hampshire">New Hampshire</option>
+                            <option value="New Jersey">New Jersey</option>
+                            <option value="New Mexico">New Mexico</option>
+                            <option value="New York">New York</option>
+                            <option value="North Carolina">North Carolina</option>
+                            <option value="North Dakota">North Dakota</option>
+                            <option value="Ohio">Ohio</option>
+                            <option value="Oklahoma">Oklahoma</option>
+                            <option value="Oregon">Oregon</option>
+                            <option value="Pennsylvania">Pennsylvania</option>
+                            <option value="Rhode Island">Rhode Island</option>
+                            <option value="South Carolina">South Carolina</option>
+                            <option value="South Dakota">South Dakota</option>
+                            <option value="Tennessee">Tennessee</option>
+                            <option value="Texas">Texas</option>
+                            <option value="Utah">Utah</option>
+                            <option value="Vermont">Vermont</option>
+                            <option value="Virginia">Virginia</option>
+                            <option value="Washington">Washington</option>
+                            <option value="West Virginia">West Virginia</option>
+                            <option value="Wisconsin">Wisconsin</option>
+                            <option value="Wyoming">Wyoming</option>
+                        </select>
+                    </div>
+                    <div class="manual-field-group">
+                        <label>Clinic Zip *</label>
+                        <input
+                            type="text"
+                            id="manual_clinic_zip"
+                            placeholder="Clinic Zip"
+                            maxlength="5"
+                            oninput="if(this.value.length>5)this.value=this.value.slice(0,5);"
+                        />
+                    </div>
+
+                    <div class="pp_fm_btn_wrapper">
+                        <button
+                            type="button"
+                            class="btn btn-primary submit-btn radio_fm_btn"
+                            onclick="addManualLocation();"
+                        >
+                            Add Location
+                        </button>
+                    </div>
+                    <div style="text-align: center">
+                        <button type="button" class="back-to-zip-link" onclick="hideManualEntry()">
+                            Back to Search by Zip Code
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            var allArr = [];
+            var whitespace = " \t\n\r";
+
+            function isValidEmail(s) {
+                if (isEmpty(s)) return false;
+                if (isWhitespace(s)) return false;
+                var i = 1;
+                var sLength = s.length;
+                while (i < sLength && s.charAt(i) != "@") {
+                    i++;
+                }
+                if (i >= sLength || s.charAt(i) != "@") return false;
+                else i += 2;
+                while (i < sLength && s.charAt(i) != ".") {
+                    i++;
+                }
+                if (i >= sLength - 1 || s.charAt(i) != ".") return false;
+                else return true;
+            }
+
+            function isEmpty(s) {
+                return s == null || s.length == 0;
+            }
+
+            function isWhitespace(s) {
+                var i;
+                if (isEmpty(s)) return true;
+                for (i = 0; i < s.length; i++) {
+                    var c = s.charAt(i);
+                    if (whitespace.indexOf(c) == -1) return false;
+                }
+                return true;
+            }
+
+            function getParam(name) {
+                name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+                var regex = new RegExp("[\\?&]" + name + "=([^&#]*)");
+                var results = regex.exec(location.search);
+                return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+            }
+
+            function phoneMask(e) {
+                var num = e.target.value.replace(/\D/g, "");
+                e.target.value = "(" + num.substring(0, 3) + ") " + num.substring(3, 6) + "-" + num.substring(6, 10);
+            }
+            document.addEventListener("DOMContentLoaded", function () {
+                document.querySelectorAll('[type="tel"]').forEach(function (el) {
+                    el.addEventListener("keyup", phoneMask);
+                });
+            });
+
+            window.onload = function () {
+                var suc = document.subscribeForm.elements["_successURL"];
+                var ero = document.subscribeForm.elements["_errorURL"];
+
+                suc.value =
+                    window.location.href.indexOf("?") == -1
+                        ? window.location.href + "?sucMsg=true"
+                        : window.location.href + "&sucMsg=true";
+
+                ero.value =
+                    window.location.href.indexOf("?") == -1
+                        ? window.location.href + "?eroMsg=true"
+                        : window.location.href + "&eroMsg=true";
+
+                if (getParam("sucMsg") == "true") {
+                    window.location.href = "https://cloud.mc.zoetis.com/portela-coming-soon-ty";
+                } else if (getParam("eroMsg") == "true") {
+                    alert("Something went wrong! please contact us on 1-888-963-8471");
+                    window.location.replace(window.location.href.replace(window.location.search, ""));
+                }
+            };
+
+            function closeSearchModal() {
+                document.getElementById("popup_form_wrapper").style.display = "none";
+            }
+
+            function getCall() {
+                var v = document.getElementById("zip_code").value;
+
+                if (isEmpty(v)) {
+                    alert("Please enter a zip code.");
+                    return false;
+                } else if (v.length < 5) {
+                    alert("Please enter a valid 5-digit zip code.");
+                    return false;
+                }
+
+                hideManualEntry();
+                document.body.style.cursor = "wait";
+                var appendSearchDiv = document.getElementById("search_results_container");
+                appendSearchDiv.innerHTML = "";
+
+                var xhr = new XMLHttpRequest();
+                xhr.onload = function () {
+                    if (xhr.status >= 200 && xhr.status < 300) {
+                        if (!isEmpty(xhr.response)) {
+                            var response = JSON.parse(xhr.response);
+                            console.log("getCall: fetched");
+                            var ClinicInfo = "";
+                            if (Object.keys(response).length > 0 && response.ClinicInfo) {
+                                var gerResp = response.ClinicInfo;
+                                for (var j = 0; j < gerResp.length; j++) {
+                                    allArr[j] = gerResp[j];
+                                    var clinic_name = gerResp[j].ClinicName || "";
+                                    var street = gerResp[j].BillingStreet || "";
+                                    var city = gerResp[j].BillingCity || "";
+                                    var narcID = gerResp[j].NarcID || "";
+                                    var state = gerResp[j].BillingState || "";
+                                    var city_zip_state = city + " " + narcID + " " + state;
+
+                                    ClinicInfo +=
+                                        "<div class='radio_input_box'><input class='pp_radio_input' type='radio' name='pp_radio' value='" +
+                                        j +
+                                        "' required ><label class='pp_radio_label' for='pp_radio_one'><p>" +
+                                        clinic_name +
+                                        "</p><p>" +
+                                        city_zip_state +
+                                        "</p></label></div>";
+                                }
+                            }
+                            if (ClinicInfo.length > 0) {
+                                ClinicInfo +=
+                                    "<div class='pp_fm_btn_wrapper'><button type='button' class='btn btn-primary submit-btn radio_fm_btn' id='radio_fm_btn' onclick='addZipLocation();'>Add Location</button></div>";
+                            } else {
+                                ClinicInfo =
+                                    "<div class=''><label class='pp_radio_label'><p>There is no result found by " +
+                                    v +
+                                    " zip code</p></label></div>";
+                            }
+                            appendSearchDiv.innerHTML = ClinicInfo;
+                            document.getElementById("popup_form_wrapper").style.display = "block";
+                        }
+                    } else {
+                        console.log(xhr);
+                        alert("Error fetching data. Please try again.");
+                    }
+                    document.body.style.cursor = "default";
+                };
+                xhr.onerror = function () {
+                    document.body.style.cursor = "default";
+                    alert("Network error. Please check your connection and try again.");
+                };
+                xhr.open("GET", "https://cloud.mc.zoetis.com/2023_05_landing_page_with_form_ssjs?zip=" + v);
+                xhr.setRequestHeader("Content-Type", "application/json");
+                xhr.send();
+                return false;
+            }
+
+            function addZipLocation() {
+                var radioButtons = document.querySelectorAll('input[name="pp_radio"]');
+                var selectedFound = false;
+
+                for (var radioButton of radioButtons) {
+                    if (radioButton.checked) {
+                        selectedFound = true;
+                        var selectedClinic = allArr[radioButton.value].ClinicName || "";
+                        var city = allArr[radioButton.value].BillingCity || "";
+                        var narcID = allArr[radioButton.value].NarcID || "";
+                        var state = allArr[radioButton.value].BillingState || "";
+                        var selected_city_zip_state = city + " " + narcID + " " + state;
+
+                        var selectedClinicInfo =
+                            "<div class='radio_input_box manual' id='selected_postal_div'><button type='button' class='close-btn-1' id='selectedPostal' onclick='removeSelectedZip();'>X</button><label class='pp_radio_label manual' for='pp_radio_one'><p>" +
+                            selectedClinic +
+                            "</p><p>" +
+                            selected_city_zip_state +
+                            "</p></label></div>";
+
+                        var zip_code_form = document.getElementById("zip_code_form");
+                        var existingDiv = document.getElementById("selected_postal_div");
+                        if (existingDiv) {
+                            existingDiv.remove();
+                        }
+                        zip_code_form.innerHTML = zip_code_form.innerHTML + selectedClinicInfo;
+
+                        var BillingState = allArr[radioButton.value].BillingState || "";
+
+                        document.getElementById("clinic_name").value = allArr[radioButton.value].ClinicName || "";
+                        document.getElementById("narc_id").value = allArr[radioButton.value].NarcID || "";
+                        document.getElementById("clinic_address").value = allArr[radioButton.value].BillingStreet || "";
+                        document.getElementById("clinic_city").value = allArr[radioButton.value].BillingCity || "";
+                        document.getElementById("clinic_state").value =
+                            BillingState.length == 2 ? abbrRegion(BillingState, "name") : BillingState;
+                        document.getElementById("clinic_zip").value = allArr[radioButton.value].BillingPostalCode || "";
+
+                        document.getElementById("zip_code").value = allArr[radioButton.value].BillingPostalCode || "";
+                        document.getElementById("zip_code").disabled = true;
+                        document.getElementById("zip_code_submit").disabled = true;
+
+                        document.getElementById("utm_source").value = getParam("utm_source");
+                        document.getElementById("utm_medium").value = getParam("utm_medium");
+                        document.getElementById("utm_campaign").value = getParam("utm_campaign");
+                        document.getElementById("utm_content").value = getParam("utm_content");
+                        document.getElementById("CampaignName").value = getParam("utm_campaign");
+
+                        var dispBlock = document.getElementById("selected_clinic_display");
+                        document.getElementById("selected_clinic_name").textContent = selectedClinic;
+                        document.getElementById("selected_clinic_info").textContent = selected_city_zip_state;
+                        dispBlock.style.display = "flex";
+
+                        break;
+                    }
+                }
+
+                if (!selectedFound) {
+                    alert("Please select a location from the list.");
+                    return false;
+                }
+
+                document.getElementById("popup_form_wrapper").style.display = "none";
+            }
+
+            function showManualEntry() {
+                document.getElementById("zip_code_form").style.display = "none";
+                document.getElementById("manual_entry_toggle_wrapper").style.display = "none";
+                document.getElementById("manual_entry_section").style.display = "block";
+                document.getElementById("popup_title").textContent = "Add Your Clinic Manually";
+            }
+
+            function hideManualEntry() {
+                document.getElementById("zip_code_form").style.display = "block";
+                document.getElementById("manual_entry_toggle_wrapper").style.display = "block";
+                document.getElementById("manual_entry_section").style.display = "none";
+                document.getElementById("popup_title").textContent = "Select Your Practice";
+            }
+
+            function addManualLocation() {
+                var name = document.getElementById("manual_clinic_name").value.trim();
+                var address = document.getElementById("manual_clinic_address").value.trim();
+                var city = document.getElementById("manual_clinic_city").value.trim();
+                var state = document.getElementById("manual_clinic_state").value;
+                var zip = document.getElementById("manual_clinic_zip").value.trim();
+
+                if (isEmpty(name) || isEmpty(address) || isEmpty(city) || isEmpty(state) || isEmpty(zip)) {
+                    alert("Please fill in all clinic fields.");
+                    return false;
+                }
+                if (zip.length != 5) {
+                    alert("Please enter a valid 5-digit zip code.");
+                    return false;
+                }
+
+                document.getElementById("clinic_name").value = name;
+                document.getElementById("clinic_address").value = address;
+                document.getElementById("clinic_city").value = city;
+                document.getElementById("clinic_state").value = state;
+                document.getElementById("clinic_zip").value = zip;
+                document.getElementById("narc_id").value = "";
+
+                document.getElementById("zip_code").value = zip;
+                document.getElementById("zip_code").disabled = true;
+                document.getElementById("zip_code_submit").disabled = true;
+
+                document.getElementById("utm_source").value = getParam("utm_source");
+                document.getElementById("utm_medium").value = getParam("utm_medium");
+                document.getElementById("utm_campaign").value = getParam("utm_campaign");
+                document.getElementById("utm_content").value = getParam("utm_content");
+                document.getElementById("CampaignName").value = getParam("utm_campaign");
+
+                var selected_city_zip_state = city + " " + zip + " " + state;
+                var dispBlock = document.getElementById("selected_clinic_display");
+                document.getElementById("selected_clinic_name").textContent = name;
+                document.getElementById("selected_clinic_info").textContent = selected_city_zip_state;
+                dispBlock.style.display = "flex";
+
+                document.getElementById("manual_clinic_name").value = "";
+                document.getElementById("manual_clinic_address").value = "";
+                document.getElementById("manual_clinic_city").value = "";
+                document.getElementById("manual_clinic_state").value = "";
+                document.getElementById("manual_clinic_zip").value = "";
+
+                document.getElementById("popup_form_wrapper").style.display = "none";
+                hideManualEntry();
+            }
+
+            function removeSelectedZip() {
+                document.getElementById("clinic_name").value = "";
+                document.getElementById("narc_id").value = "";
+                document.getElementById("clinic_address").value = "";
+                document.getElementById("clinic_city").value = "";
+                document.getElementById("clinic_state").value = "";
+                document.getElementById("clinic_zip").value = "";
+                document.getElementById("zip_code").value = "";
+
+                var selectedDiv = document.getElementById("selected_postal_div");
+                if (selectedDiv) {
+                    selectedDiv.remove();
+                }
+
+                document.getElementById("zip_code").disabled = false;
+                document.getElementById("zip_code_submit").disabled = false;
+
+                var dispBlock = document.getElementById("selected_clinic_display");
+                if (dispBlock) dispBlock.style.display = "none";
+            }
+
+            function validateLength(input) {
+                if (input.value.length > 5) {
+                    input.value = input.value.slice(0, 5);
+                }
+            }
+
+            function toggleBoardCertification() {
+                var role = document.getElementById("Role");
+                var boardGroup = document.getElementById("board_certification_group");
+                var boardField = document.getElementById("board_certification");
+
+                if (role.value === "Veterinary Specialist") {
+                    boardGroup.style.display = "block";
+                    boardField.required = true;
+                } else {
+                    boardGroup.style.display = "none";
+                    boardField.required = false;
+                    boardField.selectedIndex = 0;
+                }
+            }
+
+            document.addEventListener("DOMContentLoaded", function () {
+                var role = document.getElementById("Role");
+
+                toggleBoardCertification();
+
+                role.addEventListener("change", toggleBoardCertification);
+            });
+
+            function checkForm() {
+                var em1 = document.subscribeForm.elements["EmailAddress"];
+                var zip1 = document.getElementById("zip_code");
+                var clinic_zip = document.getElementById("clinic_zip");
+
+                if (!isValidEmail(em1.value)) {
+                    em1.style.backgroundColor = "yellow";
+                    alert("Please enter a valid Email Address. (name@host.com)");
+                    em1.focus();
+                    return false;
+                } else if (isEmpty(clinic_zip.value)) {
+                    zip1.style.backgroundColor = "yellow";
+                    alert("Please search and select your clinic using the ZIP code.");
+                    zip1.focus();
+                    return false;
+                } else {
+                    var urlParams = new URLSearchParams(window.location.search);
+                    var sValue = urlParams.get("s");
+
+                    if (sValue) {
+                        document.getElementById("SubscriberKey").value = sValue;
+                    } else {
+                        document.getElementById("SubscriberKey").value = em1.value;
+                    }
+
+                    document.getElementById("PageURL").value = window.location.href;
+
+                    return true;
+                }
+            }
+
+            function abbrRegion(input, to) {
+                var states = [
+                    ["Alabama", "AL"],
+                    ["Alaska", "AK"],
+                    ["American Samoa", "AS"],
+                    ["Arizona", "AZ"],
+                    ["Arkansas", "AR"],
+                    ["Armed Forces Americas", "AA"],
+                    ["Armed Forces Europe", "AE"],
+                    ["Armed Forces Pacific", "AP"],
+                    ["California", "CA"],
+                    ["Colorado", "CO"],
+                    ["Connecticut", "CT"],
+                    ["Delaware", "DE"],
+                    ["District Of Columbia", "DC"],
+                    ["Florida", "FL"],
+                    ["Georgia", "GA"],
+                    ["Guam", "GU"],
+                    ["Hawaii", "HI"],
+                    ["Idaho", "ID"],
+                    ["Illinois", "IL"],
+                    ["Indiana", "IN"],
+                    ["Iowa", "IA"],
+                    ["Kansas", "KS"],
+                    ["Kentucky", "KY"],
+                    ["Louisiana", "LA"],
+                    ["Maine", "ME"],
+                    ["Marshall Islands", "MH"],
+                    ["Maryland", "MD"],
+                    ["Massachusetts", "MA"],
+                    ["Michigan", "MI"],
+                    ["Minnesota", "MN"],
+                    ["Mississippi", "MS"],
+                    ["Missouri", "MO"],
+                    ["Montana", "MT"],
+                    ["Nebraska", "NE"],
+                    ["Nevada", "NV"],
+                    ["New Hampshire", "NH"],
+                    ["New Jersey", "NJ"],
+                    ["New Mexico", "NM"],
+                    ["New York", "NY"],
+                    ["North Carolina", "NC"],
+                    ["North Dakota", "ND"],
+                    ["Northern Mariana Islands", "NP"],
+                    ["Ohio", "OH"],
+                    ["Oklahoma", "OK"],
+                    ["Oregon", "OR"],
+                    ["Pennsylvania", "PA"],
+                    ["Puerto Rico", "PR"],
+                    ["Rhode Island", "RI"],
+                    ["South Carolina", "SC"],
+                    ["South Dakota", "SD"],
+                    ["Tennessee", "TN"],
+                    ["Texas", "TX"],
+                    ["US Virgin Islands", "VI"],
+                    ["Utah", "UT"],
+                    ["Vermont", "VT"],
+                    ["Virginia", "VA"],
+                    ["Washington", "WA"],
+                    ["West Virginia", "WV"],
+                    ["Wisconsin", "WI"],
+                    ["Wyoming", "WY"],
+                ];
+
+                var provinces = [
+                    ["Alberta", "AB"],
+                    ["British Columbia", "BC"],
+                    ["Manitoba", "MB"],
+                    ["New Brunswick", "NB"],
+                    ["Newfoundland", "NF"],
+                    ["Northwest Territory", "NT"],
+                    ["Nova Scotia", "NS"],
+                    ["Nunavut", "NU"],
+                    ["Ontario", "ON"],
+                    ["Prince Edward Island", "PE"],
+                    ["Quebec", "QC"],
+                    ["Saskatchewan", "SK"],
+                    ["Yukon", "YT"],
+                ];
+
+                var regions = states.concat(provinces);
+
+                var i;
+                if (to == "abbr") {
+                    input = input.replace(/\w\S*/g, function (txt) {
+                        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+                    });
+                    for (i = 0; i < regions.length; i++) {
+                        if (regions[i][0] == input) {
+                            return regions[i][1];
+                        }
+                    }
+                } else if (to == "name") {
+                    input = input.toUpperCase();
+                    for (i = 0; i < regions.length; i++) {
+                        if (regions[i][1] == input) {
+                            return regions[i][0];
+                        }
+                    }
+                }
+            }
+            
+        </script>
+    </body>
+</html>
